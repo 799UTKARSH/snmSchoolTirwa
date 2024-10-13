@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body , html{
+    font-family: Robot,sans-serif , arial;
+    background: #f0f3fa;
+}
+.width-100{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 1500px;
+    margin: 0px auto;
+}
+.top-header{
+    background: #2194f2;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+    /* position: fixed; */
+}
+.news-list{
+    background: white;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+
+}
+.headquote{
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+}
+.header_menu{
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #3a3a3a;
+    
+}
+.logo{
+    width: fit-content;
+    float: left;
+    
+
+}
+.logo img{
+    width: 90px;
+}
+.main-menu{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+    
+
+}
+.main-menu a{
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.main-menu a:hover{
+    color: red;
+}
+.main-menu li{
+    float: left;
+    margin: 20px;
+}
+.slider-width{
+    
+    width: 100%;
+    height:600px;
+    display: grid;
+    grid-column: auto;
+
+}
+.margin-top-50{
+    margin-top: 50px;
+    display: inline-block;
+}
+.news-container , .third-section{
+    display:flex;
+}
+.latest-news, .notice-board, .event-list{
+    
+    width: 30%;
+    height: 320px;
+    background-color:#fff;
+    padding: 20px;
+    margin: 0px 10px 20px 10px;
+    
+}
+.heading-sect{
+    width: 100%;
+    float: left;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    border: 1px solid#cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+}
+.head-title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+
+}
+.letest-news-ul{
+    padding-left: 20px;
+    list-style: none;
+    line-height: 40px;
+}
+/* .event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+    height: 320px;
+    background-color:green;
+    padding: 20px;
+    margin-bottom: 30px;
+} */
+ 
+.event-li{
+    list-style: none;
+    
+}
+.event-li li{
+    width: 100%;
+    float: left;
+    margin-bottom: 8px;
+}
+.date{
+    background-color: #2196f2; 
+    width: 30px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    margin-right: 10px;
+
+}
+.notice-board-list{
+    list-style: none;
+    line-height: 40px;
+}
+
+.useful-info,
+.governor,
+.certificate{
+    width: 30%;
+    height: 320px;
+    background-color:#fff;
+    padding: 20px;
+    margin: 0px 10px 20px 10px;
+}
+.gov-pic , .pri-img{
+    padding-top: 5px;
+    height: 120px;
+    width: 120px;
+
+}
+.gov , .principal{
+   border-bottom: 1px solid black;
+}
+.certificate-img{
+    height: 250px;
+    width: 450px;
+}
+
+.gallery h3{
+    margin-left: 20px;
+}
+
+.ul-list li{
+    list-style: none;
+    line-height: 60px;
+    border-bottom: 1px solid #3a3a3a;
+}
+.link a{
+    text-decoration: none;
+}
+
+
+.footer-section{
+    width: 100%;
+    height: 300px;
+    background-color: #3a3a3a;
+    /* padding: 30px; */
+   
+}
+.footer{
+    display: flex;
+    gap: 200px;
+}
+.quick-link{
+    padding: 30px;
+    color: #fff;
+    line-height: 30px;
+    list-style: none;
+}
+.quick-link li a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: red;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.last p{
+    color: #fff;
+    margin-top: 50px;
+}
+/* about */
+
+.about_section{
+    padding-top: 50px;
+}
+.first{
+    display: flex;
+}
+
+.text{
+    float: left;
+    width: 68%;
+    margin: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+.first_img{
+    float: right;
+    width: 28%;
+    height: 300px;
+}
